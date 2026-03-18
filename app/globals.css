@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* =========================
+   🎨 BRAND SYSTEM
+========================= */
+
+:root {
+  --brand-blue: #0A3D91;
+  --brand-light-blue: #1E90FF;
+  --brand-gold: #FFA500;
+  --brand-orange: #FF6A00;
+  --brand-dark: #0F172A;
+}
+
+/* =========================
+   🌍 BASE
+========================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: radial-gradient(
+      circle at top right,
+      rgba(255, 165, 0, 0.08),
+      transparent 40%
+    ),
+    var(--brand-dark);
+
+  color: white;
+  font-family: system-ui, sans-serif;
+}
+
+/* =========================
+   ✨ UTILITIES
+========================= */
+
+.gold-gradient {
+  background: linear-gradient(90deg, #FFA500, #FF6A00);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.section-padding {
+  padding: 60px 20px;
+}
+
+::selection {
+  background: var(--brand-gold);
+  color: black;
+}
