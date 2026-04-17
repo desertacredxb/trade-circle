@@ -6,8 +6,8 @@ export default function Navbar() {
 
         <div className="flex items-center">
           <img
-            src="/trade-circle-logo.png"
-            alt="Trade Circle Logo"
+            src="https://res.cloudinary.com/dpekvrij7/image/upload/v1776407430/logo-01_u6spbo.svg"
+            alt="Close Friend Circle Logo"
             className="w-20 h-20 object-contain"
           />
         </div>
