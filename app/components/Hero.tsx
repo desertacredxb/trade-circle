@@ -21,7 +21,7 @@ export default function Hero() {
                 <video
                     ref={videoRef}
                     className="absolute inset-0 w-full h-full object-cover p-8"
-                    src="/trade-circle-influencer-video-1.mp4"
+                    src="https://res.cloudinary.com/dpekvrij7/video/upload/v1776406758/Nonsh_info_tech_V1_final_1_uux7to.mov"
                     autoPlay
                     muted
                     loop
